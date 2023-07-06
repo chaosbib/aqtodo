@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Todo } from "../model/Todo";
-import { Button, Col, Container, Modal, Row } from "react-bootstrap";
+import { Button, Container, Modal, Row } from "react-bootstrap";
 
 interface ModalProps {
   todo: Todo | undefined;
